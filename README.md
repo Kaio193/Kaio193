@@ -14,7 +14,3 @@ Estudante do Curso Técnico em Informática (IFPB) e desenvolvedor de aplicativo
 
 - **Bustime** — projeto web da disciplina WEB 1, com HTML, CSS e JavaScript
 - **Radia Perlman** — site biográfico sobre a pioneira da informática, publicado no GitHub Pages
-
-## Contato
-
-LinkedIn e portfólio em atualização.
