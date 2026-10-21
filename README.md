@@ -1,16 +1,20 @@
-## Hi there 👋
+# Kaio Dantas
 
-<!--
-**Kaio193/Kaio193** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Estudante do Curso Técnico em Informática (IFPB) e desenvolvedor de aplicativos Android nativos em Java.
 
-Here are some ideas to get you started:
+## Em destaque
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Serpenteando** — aplicativo educacional para aprendizagem sobre **serpentes brasileiras**, com modelo 3D interativo, quiz com níveis, gamificação (missões e sequência de estudo), mitos e verdades, dicas de prevenção de acidentes e interface em português, inglês e espanhol. Projeto de TCC, em preparação para publicação.
+
+## Ferramentas
+
+`Java` `Android` `SQLite` `Filament (3D)` `HTML` `CSS` `JavaScript` `Node.js` `PHP` `Git` `GitHub`
+
+## Projetos públicos
+
+- **Bustime** — projeto web da disciplina WEB 1, com HTML, CSS e JavaScript
+- **Radia Perlman** — site biográfico sobre a pioneira da informática, publicado no GitHub Pages
+
+## Contato
+
+LinkedIn e portfólio em atualização.
