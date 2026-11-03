@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="980" height="350" viewBox="0 0 980 350" role="img" aria-label="Terminal com os objetivos atuais">
+<title>Objetivos atuais — terminal</title>
+<defs>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00e5ff" opacity=".035"/></pattern>
+  <!-- cada linha é revelada por uma máscara que "digita" da esquerda pra direita -->
+  <clipPath id="l1"><rect x="30" y="66" width="0" height="22"><animate attributeName="width" to="900" dur=".8s" begin=".3s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l2"><rect x="30" y="96" width="0" height="22"><animate attributeName="width" to="900" dur=".5s" begin="1.3s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l3"><rect x="30" y="122" width="0" height="22"><animate attributeName="width" to="900" dur=".5s" begin="1.8s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l4"><rect x="30" y="148" width="0" height="22"><animate attributeName="width" to="900" dur=".5s" begin="2.3s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l5"><rect x="30" y="174" width="0" height="22"><animate attributeName="width" to="900" dur=".5s" begin="2.8s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l6"><rect x="30" y="200" width="0" height="22"><animate attributeName="width" to="900" dur=".5s" begin="3.3s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l7"><rect x="30" y="236" width="0" height="22"><animate attributeName="width" to="900" dur=".7s" begin="4s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l8"><rect x="30" y="264" width="0" height="22"><animate attributeName="width" to="900" dur=".6s" begin="4.9s" fill="freeze"/></rect></clipPath>
+  <clipPath id="l9"><rect x="30" y="290" width="0" height="22"><animate attributeName="width" to="900" dur=".6s" begin="5.5s" fill="freeze"/></rect></clipPath>
+</defs>
+<style>
+  text{white-space:pre;font:400 14px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:#c7def2}
+  .p{fill:#19d3a2;font-weight:700}
+  .path{fill:#00e5ff}
+  .c{fill:#e9f8ff;font-weight:600}
+  .d{fill:#5f7f9e}
+  .k{fill:#00e5ff}
+  .w{fill:#ffcc4d}
+  .r{fill:#ff2e88}
+  .bar{font-size:12px;fill:#7894ad}
+  .caret{opacity:0;animation:on .01s 6.1s forwards,bl 1s 6.1s steps(1) infinite}
+  @keyframes on{to{opacity:1}} @keyframes bl{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.caret{animation:none;opacity:1}}
+</style>
+
+<rect x=".5" y=".5" width="979" height="349" rx="12" fill="#05080f" stroke="#12304a"/>
+<rect x="1" y="1" width="978" height="348" rx="12" fill="url(#scan)"/>
+<!-- barra da janela -->
+<path d="M1 13a12 12 0 0 1 12-12h954a12 12 0 0 1 12 12v27H1z" fill="#0a1322"/>
+<line x1="1" y1="40" x2="979" y2="40" stroke="#12304a"/>
+<circle cx="24" cy="21" r="6" fill="#ff5f57"/><circle cx="44" cy="21" r="6" fill="#febc2e"/><circle cx="64" cy="21" r="6" fill="#28c840"/>
+<text x="490" y="25" text-anchor="middle" class="bar">kaio@core: ~/objetivos — bash</text>
+
+<g clip-path="url(#l1)"><text x="30" y="82"><tspan class="p">kaio@core</tspan><tspan class="d">:</tspan><tspan class="path">~/objetivos</tspan><tspan class="d">$ </tspan><tspan class="c">cat objetivos_2026.yml</tspan></text></g>
+
+<g clip-path="url(#l2)"><text x="30" y="112"><tspan class="k">tcc</tspan><tspan class="d">:        </tspan>publicar o Serpenteando — app sobre serpentes brasileiras<tspan x="770" class="w">[em andamento]</tspan></text></g>
+<g clip-path="url(#l3)"><text x="30" y="138"><tspan class="k">curso</tspan><tspan class="d">:      </tspan>concluir o Técnico em Informática no IFPB<tspan x="770" class="w">[em andamento]</tspan></text></g>
+<g clip-path="url(#l4)"><text x="30" y="164"><tspan class="k">android</tspan><tspan class="d">:    </tspan>aprofundar arquitetura, testes e performance<tspan x="770" class="p">[estudando]</tspan></text></g>
+<g clip-path="url(#l5)"><text x="30" y="190"><tspan class="k">web</tspan><tspan class="d">:        </tspan>criar sites pro comércio local da Paraíba<tspan x="770" class="p">[ativo]</tspan></text></g>
+<g clip-path="url(#l6)"><text x="30" y="216"><tspan class="k">automação</tspan><tspan class="d">:  </tspan>IA aplicada e fluxos com n8n<tspan x="770" class="p">[estudando]</tspan></text></g>
+
+<g clip-path="url(#l7)"><text x="30" y="252"><tspan class="p">kaio@core</tspan><tspan class="d">:</tspan><tspan class="path">~/objetivos</tspan><tspan class="d">$ </tspan><tspan class="c">uptime --foco</tspan></text></g>
+<g clip-path="url(#l8)"><text x="30" y="280"><tspan class="d">▸ </tspan>aprender construindo: cada projeto entra no ar e vira portfólio</text></g>
+<g clip-path="url(#l9)"><text x="30" y="306"><tspan class="d">▸ </tspan>aberto a <tspan class="k">colaborações</tspan> e <tspan class="k">projetos freelance</tspan></text></g>
+
+<text x="30" y="334" class="caret"><tspan class="p">kaio@core</tspan><tspan class="d">:</tspan><tspan class="path">~/objetivos</tspan><tspan class="d">$ </tspan><tspan class="p">█</tspan></text>
+</svg>

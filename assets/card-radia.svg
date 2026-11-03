@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="230" viewBox="0 0 480 230" role="img" aria-label="Radia Perlman">
+<title>Radia Perlman — Site biográfico sobre a pioneira da informática que criou o STP.</title>
+<defs>
+<linearGradient id="bd" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ff2e88"/><stop offset=".5" stop-color="#12304a"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+<radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#ff2e88" stop-opacity=".22"/><stop offset="1" stop-color="#ff2e88" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#0f2a44" stroke-width=".5"/></pattern>
+</defs>
+<style>
+.tag{font:600 11px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;letter-spacing:2px}
+.t{font:800 26px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#eaf6ff;letter-spacing:.5px}
+.d{font:400 14px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#8fb0cc}
+.chip{font:600 11px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+.st{font:600 11px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+.in{opacity:0;animation:in .8s ease forwards}@keyframes in{to{opacity:1}}
+.dot{animation:p 1.6s ease-in-out infinite}@keyframes p{50%{opacity:.25}}
+.shine{animation:sh 5s ease-in-out infinite}@keyframes sh{0%,60%{transform:translateX(-480px)}100%{transform:translateX(480px)}}
+@media (prefers-reduced-motion: reduce){.in{animation:none;opacity:1}.dot,.shine{animation:none}}
+</style>
+<rect x="1" y="1" width="478" height="228" rx="14" fill="#05080f" stroke="url(#bd)" stroke-width="1.5"/>
+<rect x="1" y="1" width="478" height="228" rx="14" fill="url(#grid)" opacity=".6"/>
+<rect x="1" y="1" width="478" height="228" rx="14" fill="url(#glow)"/>
+<path class="shine" d="M0 230 L60 0 H100 L40 230Z" fill="#ffffff" opacity=".025"/>
+<g class="in">
+<text x="28" y="40" class="tag" fill="#ff2e88">// GITHUB PAGES · NO AR</text>
+<circle class="dot" cx="360" cy="36" r="4" fill="#00e5ff"/><text x="452" y="40" text-anchor="end" class="st" fill="#00e5ff">ONLINE</text>
+<text x="28" y="80" class="t">Radia Perlman</text>
+<g transform="translate(372 62)" fill="none" stroke="#ff2e88" stroke-width="2.5" opacity=".85"><circle cx="32" cy="8" r="7"/><circle cx="6" cy="52" r="7"/><circle cx="58" cy="52" r="7"/><path d="M28 14 10 46M36 14l18 32M13 52h38"/></g>
+<text x="28" y="118" class="d">Site biográfico sobre a pioneira</text><text x="28" y="139" class="d">da informática que criou o STP.</text>
+<rect x="28" y="184" width="50" height="22" rx="11" fill="#ff2e88" fill-opacity=".1" stroke="#ff2e88" stroke-opacity=".5"/><text x="53" y="199" text-anchor="middle" class="chip" fill="#ff2e88">HTML</text><rect x="86" y="184" width="42" height="22" rx="11" fill="#ff2e88" fill-opacity=".1" stroke="#ff2e88" stroke-opacity=".5"/><text x="107" y="199" text-anchor="middle" class="chip" fill="#ff2e88">CSS</text><rect x="136" y="184" width="94" height="22" rx="11" fill="#ff2e88" fill-opacity=".1" stroke="#ff2e88" stroke-opacity=".5"/><text x="183" y="199" text-anchor="middle" class="chip" fill="#ff2e88">JavaScript</text>
+</g>
+</svg>

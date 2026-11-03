@@ -1,0 +1,50 @@
+# Gera os cards do perfil (stats, linguagens, streak, atividade, troféus) e a cobrinha.
+# Tudo vai pro branch "output" — o README só aponta pra lá.
+# Roda 1x por dia, a cada push na main e quando você clicar em "Run workflow".
+name: Cards do perfil
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 03:00 no horário de Brasília
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cards
+  cancel-in-progress: true
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      # Se existir o secret METRICS_TOKEN (PAT com read:user), conta também as contribuições privadas.
+      # Sem ele, usa o GITHUB_TOKEN padrão e mostra só o que é público.
+      - name: Gerar cards
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/gerar_cards.py "${{ github.repository_owner }}" dist
+
+      - name: Gerar cobrinha
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#00e5ff&color_dots=#0b1726,#0e4f5c,#0f8a8f,#19d3a2,#00e5ff
+            dist/snake-light.svg?color_snake=#0aa6c2&color_dots=#ebedf0,#b6f0e4,#6fdcc6,#19b393,#0a7f8f
+
+      - name: Publicar no branch output
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          commit_message: "cards: atualização automática"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

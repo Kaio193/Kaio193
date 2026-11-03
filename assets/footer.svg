@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="Fim da transmissão">
+<title>Fim da transmissão — obrigado pela visita</title>
+<defs>
+  <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#00e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="fade2" x1="0" x2="1"><stop offset="0" stop-color="#19d3a2" stop-opacity="0"/><stop offset=".5" stop-color="#19d3a2"/><stop offset="1" stop-color="#19d3a2" stop-opacity="0"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  .t{font:600 13px 'JetBrains Mono','Fira Code',Consolas,monospace;fill:#7894ad;letter-spacing:4px}
+  .h{font:700 18px 'JetBrains Mono','Fira Code',Consolas,monospace;fill:#e9f8ff;letter-spacing:6px}
+  .w1{animation:mv 7s linear infinite}.w2{animation:mv 11s linear infinite reverse}
+  @keyframes mv{to{transform:translateX(-200px)}}
+  .blink{animation:b 1.2s steps(1) infinite}@keyframes b{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.w1,.w2,.blink{animation:none}}
+</style>
+<rect width="1000" height="150" fill="#03060c" rx="14"/>
+<!-- duas ondas de sinal correndo em sentidos opostos -->
+<g filter="url(#glow)">
+  <path class="w1" d="M0 75 q25 -26 50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0 t50 0" fill="none" stroke="url(#fade)" stroke-width="1.5" opacity=".55"/>
+  <path class="w2" d="M-200 75 q50 -14 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0 t100 0" fill="none" stroke="url(#fade2)" stroke-width="1.5" opacity=".5"/>
+</g>
+<rect x="330" y="52" width="340" height="46" rx="8" fill="#03060c" stroke="#12304a"/>
+<text x="500" y="81" text-anchor="middle" class="h">END OF TRANSMISSION<tspan class="blink" fill="#19d3a2">_</tspan></text>
+<text x="500" y="130" text-anchor="middle" class="t">KAIO DANTAS · PARAÍBA, BR · 2026</text>
+<text x="500" y="30" text-anchor="middle" class="t" style="font-size:10px">◆ CONEXÃO ENCERRADA COM SUCESSO ◆</text>
+</svg>
