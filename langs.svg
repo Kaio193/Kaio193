@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="210" viewBox="0 0 480 210" role="img" aria-label="LANG.MODULES">
+<title>LANG.MODULES</title>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#19d3a2"/></linearGradient>
+  <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#00e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff" stop-opacity=".07"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#12304a" stroke-width=".5" opacity=".55"/></pattern>
+</defs>
+<style>
+  .t{font:600 13px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:#00e5ff;letter-spacing:2px}
+  .s{font:400 11px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:#5f7f9e}
+  .l{font:400 12px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#5f7f9e}
+  .v{font:700 20px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:#d6ecff}
+  .big{font:700 34px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:url(#g)}
+  .in{opacity:0;animation:in .6s ease forwards}
+  @keyframes in{to{opacity:1}}
+  .blink{animation:b 1s steps(1) infinite} @keyframes b{50%{opacity:0}}
+  .sweep{animation:sw 4s linear infinite} @keyframes sw{from{transform:translateY(-210px)}to{transform:translateY(210px)}}
+  @media (prefers-reduced-motion: reduce){.in{animation:none;opacity:1}.blink,.sweep{animation:none}}
+</style>
+<rect x=".5" y=".5" width="479" height="209" rx="10" fill="#05080f" stroke="#12304a"/>
+<rect x="1" y="1" width="478" height="208" rx="10" fill="url(#grid)"/>
+<path d="M8 22 V8 H22" stroke="#00e5ff" stroke-width="2" fill="none"/><path d="M458 8 H472 V22" stroke="#00e5ff" stroke-width="2" fill="none"/><path d="M8 188 V202 H22" stroke="#00e5ff" stroke-width="2" fill="none"/><path d="M458 202 H472 V188" stroke="#00e5ff" stroke-width="2" fill="none"/>
+<text x="26" y="34" class="t">LANG.MODULES<tspan class="blink" fill="#19d3a2"> _</tspan></text>
+<text x="454" y="34" class="s" text-anchor="end">por tamanho de código</text>
+<line x1="26" y1="46" x2="454" y2="46" stroke="#12304a"/>
+<g class="in" style="animation-delay:0.00s"><circle cx="31" cy="70" r="4" fill="#b07219"/><text x="42" y="74" class="l" style="fill:#d6ecff">Java</text><rect x="150" y="65" width="250" height="8" rx="4" fill="#12304a"/><rect x="150" y="65" width="0" height="8" rx="4" fill="#b07219"><animate attributeName="width" from="0" to="214.3" dur="1s" begin="0.20s" fill="freeze"/></rect><text x="454" y="74" class="s" text-anchor="end">85.7%</text></g><g class="in" style="animation-delay:0.12s"><circle cx="31" cy="96" r="4" fill="#663399"/><text x="42" y="100" class="l" style="fill:#d6ecff">CSS</text><rect x="150" y="91" width="250" height="8" rx="4" fill="#12304a"/><rect x="150" y="91" width="0" height="8" rx="4" fill="#663399"><animate attributeName="width" from="0" to="19.9" dur="1s" begin="0.32s" fill="freeze"/></rect><text x="454" y="100" class="s" text-anchor="end">7.9%</text></g><g class="in" style="animation-delay:0.24s"><circle cx="31" cy="122" r="4" fill="#e34c26"/><text x="42" y="126" class="l" style="fill:#d6ecff">HTML</text><rect x="150" y="117" width="250" height="8" rx="4" fill="#12304a"/><rect x="150" y="117" width="0" height="8" rx="4" fill="#e34c26"><animate attributeName="width" from="0" to="11.5" dur="1s" begin="0.44s" fill="freeze"/></rect><text x="454" y="126" class="s" text-anchor="end">4.6%</text></g><g class="in" style="animation-delay:0.36s"><circle cx="31" cy="148" r="4" fill="#f1e05a"/><text x="42" y="152" class="l" style="fill:#d6ecff">JavaScript</text><rect x="150" y="143" width="250" height="8" rx="4" fill="#12304a"/><rect x="150" y="143" width="0" height="8" rx="4" fill="#f1e05a"><animate attributeName="width" from="0" to="3.6" dur="1s" begin="0.56s" fill="freeze"/></rect><text x="454" y="152" class="s" text-anchor="end">1.5%</text></g><g class="in" style="animation-delay:0.48s"><circle cx="31" cy="174" r="4" fill="#012456"/><text x="42" y="178" class="l" style="fill:#d6ecff">PowerShell</text><rect x="150" y="169" width="250" height="8" rx="4" fill="#12304a"/><rect x="150" y="169" width="0" height="8" rx="4" fill="#012456"><animate attributeName="width" from="0" to="0.7" dur="1s" begin="0.68s" fill="freeze"/></rect><text x="454" y="178" class="s" text-anchor="end">0.3%</text></g>
+<rect class="sweep" x="0" y="0" width="480" height="105" fill="url(#scan)" pointer-events="none"/>
+</svg>
