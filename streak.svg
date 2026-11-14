@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="210" viewBox="0 0 980 210" role="img" aria-label="STREAK.CORE">
+<title>STREAK.CORE</title>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#19d3a2"/></linearGradient>
+  <linearGradient id="scan" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#00e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff" stop-opacity=".07"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#12304a" stroke-width=".5" opacity=".55"/></pattern>
+</defs>
+<style>
+  .t{font:600 13px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:#00e5ff;letter-spacing:2px}
+  .s{font:400 11px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:#5f7f9e}
+  .l{font:400 12px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#5f7f9e}
+  .v{font:700 20px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:#d6ecff}
+  .big{font:700 34px 'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace;fill:url(#g)}
+  .in{opacity:0;animation:in .6s ease forwards}
+  @keyframes in{to{opacity:1}}
+  .blink{animation:b 1s steps(1) infinite} @keyframes b{50%{opacity:0}}
+  .sweep{animation:sw 4s linear infinite} @keyframes sw{from{transform:translateY(-210px)}to{transform:translateY(210px)}}
+  @media (prefers-reduced-motion: reduce){.in{animation:none;opacity:1}.blink,.sweep{animation:none}}
+</style>
+<rect x=".5" y=".5" width="979" height="209" rx="10" fill="#05080f" stroke="#12304a"/>
+<rect x="1" y="1" width="978" height="208" rx="10" fill="url(#grid)"/>
+<path d="M8 22 V8 H22" stroke="#00e5ff" stroke-width="2" fill="none"/><path d="M958 8 H972 V22" stroke="#00e5ff" stroke-width="2" fill="none"/><path d="M8 188 V202 H22" stroke="#00e5ff" stroke-width="2" fill="none"/><path d="M958 202 H972 V188" stroke="#00e5ff" stroke-width="2" fill="none"/>
+<text x="26" y="34" class="t">STREAK.CORE<tspan class="blink" fill="#19d3a2"> _</tspan></text>
+<text x="954" y="34" class="s" text-anchor="end">14/11/2026</text>
+<line x1="26" y1="46" x2="954" y2="46" stroke="#12304a"/>
+<g class="in" style="animation-delay:0.0s"><text x="163" y="118" class="v" text-anchor="middle">128</text><text x="163" y="180" class="l" text-anchor="middle" style="fill:#d6ecff">Contribuições</text><text x="163" y="196" class="s" text-anchor="middle">desde a criação</text></g><g class="in" style="animation-delay:0.2s"><circle cx="490" cy="112" r="44" fill="none" stroke="url(#g)" stroke-width="3"/><circle cx="490" cy="112" r="52" fill="none" stroke="#ff2e88" stroke-width="1" stroke-dasharray="3 6" opacity=".7"><animateTransform attributeName="transform" type="rotate" from="360 490 112" to="0 490 112" dur="18s" repeatCount="indefinite"/></circle><text x="490" y="124" class="big" text-anchor="middle">0</text><text x="490" y="180" class="l" text-anchor="middle" style="fill:#d6ecff">Sequência atual</text><text x="490" y="196" class="s" text-anchor="middle">dias seguidos</text></g><g class="in" style="animation-delay:0.4s"><text x="817" y="118" class="v" text-anchor="middle">6</text><text x="817" y="180" class="l" text-anchor="middle" style="fill:#d6ecff">Maior sequência</text><text x="817" y="196" class="s" text-anchor="middle">recorde</text></g><line x1="326" y1="70" x2="326" y2="190" stroke="#12304a"/><line x1="654" y1="70" x2="654" y2="190" stroke="#12304a"/>
+<rect class="sweep" x="0" y="0" width="980" height="105" fill="url(#scan)" pointer-events="none"/>
+</svg>
