@@ -196,6 +196,16 @@ DESENVOLVEDOR JÚNIOR 🚀
 <img height="180em" src="https://raw.githubusercontent.com/Kaio193/Kaio193/output/stats.svg" alt="Estatísticas do GitHub"/>
 <img height="180em" src="https://raw.githubusercontent.com/Kaio193/Kaio193/output/langs.svg" alt="Linguagens mais usadas"/>
 
+<br/><br/>
+
+<sub><b>CONTRIBUIÇÕES DOS ÚLTIMOS 12 MESES</b></sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kaio193/Kaio193/output/snake.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kaio193/Kaio193/output/snake-light.svg"/>
+  <img width="100%" src="https://raw.githubusercontent.com/Kaio193/Kaio193/output/snake.svg" alt="Gráfico de contribuições do último ano percorrido por uma cobrinha"/>
+</picture>
+
 </div>
 
 ---
