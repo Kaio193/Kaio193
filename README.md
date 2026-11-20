@@ -66,7 +66,7 @@ public class Kaio {
 
 ---
 
-## 💙 Minha trajetória
+## 🧭 Minha trajetória
 
 Faço sites desde o primeiro ano do curso técnico, em 2024, no **IFPB campus Santa Luzia**.
 
@@ -228,7 +228,7 @@ DESENVOLVEDOR JÚNIOR 🚀
 
 <div align="center">
 
-### 💙 "Aprender construindo."
+### "Aprender construindo."
 
 <img src="https://komarev.com/ghpvc/?username=Kaio193&style=for-the-badge&color=0e7490" alt="Visitas ao perfil"/>
 
