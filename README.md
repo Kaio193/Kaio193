@@ -25,7 +25,7 @@ Inicializando sistema...
 
 ✔ Desenvolvedor detectado
 ✔ Android nativo carregado
-✔ 7 sites no ar
+✔ 5 sites de clientes no ar
 ✔ Automação com IA ativada
 ✔ Aprendizado contínuo
 
@@ -58,7 +58,7 @@ public class Kaio {
     };
 
     String[] paixoes = {
-        "Tecnologia", "Psicologia", "Teologia",
+        "Tecnologia", "Psicologia",
         "Oratória", "Mídia e áudio"
     };
 }
@@ -74,7 +74,7 @@ No TCC desenvolvi em dupla o **Serpenteando**, um app Android nativo em Java pra
 
 Em **novembro de 2026** comecei a atender negócios aqui da região: barbearia, açaiteria, clínica odontológica, centros de treinamento de lutas. Cada site sai com SEO local e métricas no Microsoft Clarity.
 
-Fora do código, estudo **psicologia e teologia**, e isso me ajuda na comunicação, na oratória e no atendimento ao cliente.
+Fora do código, estudo **psicologia**, e isso me ajuda na comunicação, na oratória e no atendimento ao cliente.
 
 > "Aprender construindo."
 
@@ -157,7 +157,6 @@ Aprender → Construir → Publicar
 ```text
 💻 Tecnologia
 🧠 Psicologia
-📖 Teologia
 🎤 Oratória
 🎧 Mídia e edição de áudio
 🤝 Atendimento ao cliente
